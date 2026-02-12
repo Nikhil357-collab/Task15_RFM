@@ -1,42 +1,4 @@
 # Task15_RFM
-Below is a clean, professional README.md content for your Task 15 – RFM Customer Segmentation project.
-
-You can copy this directly into README.md in GitHub.
-
-📊 Task 15 – RFM Customer Segmentation
-📌 Project Overview
-
-This project performs RFM (Recency, Frequency, Monetary) Analysis to segment customers based on purchasing behavior.
-
-The objective is to identify high-value customers, at-risk customers, and churned customers to support data-driven marketing decisions.
-
-📂 Deliverables
-
-task15_rfm.ipynb – Jupyter Notebook implementation
-
-rfm_segments.csv – Final customer segmentation output
-
-segment_actions.txt – Business actions for each segment
-
-🗂 Dataset Columns Used
-
-InvoiceNo
-
-StockCode
-
-Description
-
-Quantity
-
-InvoiceDate
-
-UnitPrice
-
-CustomerID
-
-Country
-
-Revenue
 
 ⚙️ Project Workflow
 1️⃣ Data Cleaning
@@ -54,45 +16,7 @@ Created Revenue = Quantity × UnitPrice
 Recency
 Days since last purchase.
 
-𝑅
-𝑒
-𝑐
-𝑒
-𝑛
-𝑐
-𝑦
-=
-𝑆
-𝑛
-𝑎
-𝑝
-𝑠
-ℎ
-𝑜
-𝑡
- 
-𝐷
-𝑎
-𝑡
-𝑒
-−
-𝐿
-𝑎
-𝑠
-𝑡
- 
-𝐼
-𝑛
-𝑣
-𝑜
-𝑖
-𝑐
-𝑒
- 
-𝐷
-𝑎
-𝑡
-𝑒
+
 Recency=Snapshot Date−Last Invoice Date
 
 Frequency
